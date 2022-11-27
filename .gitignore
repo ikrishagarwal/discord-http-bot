@@ -1,14 +1,30 @@
-dist/
+# Ignore a blackhole and the folder for development
 node_modules/
+.vs/
+.idea/
+*.iml
 
-*.log
-.env.local
-.env.*.local
-
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
 .yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
 !.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+!.yarn/plugins
+
+# Output directories
+dist/
+dist-tsc/
+
+# Ignore heapsnapshot and log files
+*.heapsnapshot
+*.log
+
+# Ignore package locks
+package-lock.json
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/.env
