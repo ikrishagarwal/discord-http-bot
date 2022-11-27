@@ -4,3 +4,11 @@ node_modules/
 *.log
 .env.local
 .env.*.local
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
