@@ -1,7 +1,6 @@
 <div align='center'>
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/krishagarwal2811/http-bot)
-![Lines of code](https://img.shields.io/tokei/lines/github/krishagarwal2811/http-bot)
 ![GitHub issues](https://img.shields.io/github/issues-raw/krishagarwal2811/http-bot)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/krishagarwal2811/http-bot)
 
