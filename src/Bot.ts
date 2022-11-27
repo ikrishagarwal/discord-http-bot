@@ -12,9 +12,9 @@ async function main() {
 	await registry.load();
 
 	if (envIsDefined('GUILD_ID')) {
-		registry.registerGlobalCommandsInGuild(envParseString('GUILD_ID'));
+		await registry.registerGlobalCommandsInGuild(envParseString('GUILD_ID'));
 	} else {
-		registry.registerGlobalCommands();
+		await registry.registerGlobalCommands();
 	}
 
 	await client.load();
@@ -24,7 +24,7 @@ async function main() {
 	const address = envParseString('ADDRESS');
 	const port = envParseInteger('HTTP_PORT', 3000);
 
-	client.listen({ address, port });
+	void client.listen({ address, port });
 
 	printBanner();
 }
@@ -53,9 +53,10 @@ ${blankLine}    \:  |   (:      "| /" \   :)     \:  |        |: |_)  :)\       
 ${blankLine}     \__|    \_______)(_______/       \__|        (_______/  \"_____/      \__|      
 ${blankLine}
 ${blankLine} ${pad}[${success}] Gateway
-${blankLine}${process.env.NODE_ENV !== 'production' ? ` ${pad}${blc('<')}${llc('/')}${blc('>')} ${llc('DEVELOPMENT MODE')}` : ''}
+${blankLine}${process.env.NODE_ENV === 'production' ? '' : ` ${pad}${blc('<')}${llc('/')}${blc('>')} ${llc('DEVELOPMENT MODE')}`}
 		`.trim()
 		)
 	);
 }
-main();
+
+void main();
