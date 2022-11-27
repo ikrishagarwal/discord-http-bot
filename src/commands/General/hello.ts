@@ -14,7 +14,7 @@ import type { User } from 'discord.js';
 )
 export class UserCommand extends Command {
 	public override chatInputRun(interaction: Command.ChatInputInteraction, option: Option) {
-		const user = option.user;
+		const { user } = option;
 		return interaction.reply({ content: `Hello, <@${user.id}>! Greeting to you by <@${interaction.user.id}>!` });
 	}
 }

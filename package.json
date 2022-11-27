@@ -14,7 +14,10 @@
 	"scripts": {
 		"start": "node dist/Bot.js --enable-source-maps",
 		"build": "tsc -b src",
-		"watch": "yarn tsc-watch -b src --onSuccess \"yarn start\""
+		"watch": "yarn tsc-watch -b src --onSuccess \"yarn start\"",
+		"lint": "eslint --fix --ext .ts src",
+		"format": "prettier --write --loglevel=warn \"src/**/*.{js,ts,json}\"",
+		"postinstall": "husky install .github/husky"
 	},
 	"dependencies": {
 		"@skyra/env-utilities": "^1.1.0",
@@ -24,15 +27,36 @@
 		"discord.js": "v13"
 	},
 	"devDependencies": {
+		"@sapphire/eslint-config": "^4.3.8",
 		"@sapphire/prettier-config": "^1.4.4",
 		"@sapphire/ts-config": "^3.3.4",
-		"@types/node": "^18.11.7",
+		"@types/node": "^18.11.9",
+		"@typescript-eslint/eslint-plugin": "^5.44.0",
+		"@typescript-eslint/parser": "^5.44.0",
 		"discord-api-types": "0.33.5",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"husky": "^8.0.2",
+		"lint-staged": "^13.0.4",
+		"prettier": "^2.8.0",
+		"pretty-quick": "^3.1.3",
 		"tsc-watch": "^5.0.3",
 		"typescript": "^4.8.4"
 	},
 	"engines": {
 		"node": ">=18.x.x"
 	},
-	"prettier": "@sapphire/prettier-config"
+	"prettier": "@sapphire/prettier-config",
+	"lint-staged": {
+		"*.{js,ts}": [
+			"eslint --fix --ext ts,js"
+		]
+	},
+	"eslintConfig": {
+		"extends": "@sapphire",
+		"rules": {
+			"@typescript-eslint/no-base-to-string": "off"
+		}
+	}
 }
