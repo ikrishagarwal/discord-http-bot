@@ -18,13 +18,7 @@ Discord bot template for making only HTTP connection with discord.
 
 ### Set-Up
 
-Fork the project and clone it.
-
-```bash
-  yarn install
-```
-
-> NOTE: Install yarn if you haven't installed it.
+Fork the project and clone it and then run `yarn install` to get started. (Install yarn with `npm i -g yarn` if you haven't)
 
 Copy the .env file and enter your own details
 
