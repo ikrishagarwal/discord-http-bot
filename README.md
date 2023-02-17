@@ -29,6 +29,7 @@
 -   Prettier support
 -   Automated git hooks with husky
 -   Integrated with commit lint to watch your commit messages
+-   Uses [renovate](https://renovatebot.com) to keep up with latest dependency updates
 
 ## 📝 Authors
 
