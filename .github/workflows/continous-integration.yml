@@ -43,3 +43,4 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable
       - name: Build Code
+        run: yarn build
