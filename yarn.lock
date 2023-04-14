@@ -519,12 +519,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skyra/logger@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@skyra/logger@npm:1.0.1"
+"@skyra/logger@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@skyra/logger@npm:2.0.0"
   dependencies:
     colorette: 2.0.19
-  checksum: 7fc29b2d4389e49a654ae4a7d9a6c0cfbac82939add38ce5651b49fe79503c77fb7f46fbf2bd6f6a23a46462bf7dd217cc9b08a07057ec3c4cbfd2b4f91bf3f0
+  checksum: 068cd77de677d8c28d636278aa16d3b6cb7f7833aaa5e63e8e6a15577ffa17244930366a626b80eb1c98f8a7aa8afadd76800cb742a8dbe6fdada9cdb9b9e192
   languageName: node
   linkType: hard
 
@@ -3092,7 +3092,7 @@ __metadata:
     "@sapphire/ts-config": ^3.3.4
     "@skyra/env-utilities": ^1.1.0
     "@skyra/http-framework": ^1.0.0
-    "@skyra/logger": ^1.0.1
+    "@skyra/logger": ^2.0.0
     "@types/node": ^18.13.0
     "@typescript-eslint/eslint-plugin": ^5.52.0
     "@typescript-eslint/parser": ^5.52.0

@@ -21,7 +21,7 @@
 	"dependencies": {
 		"@skyra/env-utilities": "^1.1.0",
 		"@skyra/http-framework": "^1.0.0",
-		"@skyra/logger": "^1.0.1",
+		"@skyra/logger": "^2.0.0",
 		"colorette": "^2.0.19",
 		"discord.js": "^14.7.1"
 	},
