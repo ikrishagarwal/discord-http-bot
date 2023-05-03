@@ -1,7 +1,7 @@
 {
 	"name": "sapphire-bot",
 	"version": "2.0.0",
-	"packageManager": "yarn@3.5.0",
+	"packageManager": "yarn@3.5.1",
 	"private": true,
 	"license": "MIT",
 	"main": "dist/Bot.js",
@@ -34,7 +34,7 @@
 		"@types/node": "^18.15.11",
 		"@typescript-eslint/eslint-plugin": "^5.58.0",
 		"@typescript-eslint/parser": "^5.58.0",
-		"discord-api-types": "0.37.38",
+		"discord-api-types": "0.37.41",
 		"eslint": "^8.38.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "^4.2.1",
