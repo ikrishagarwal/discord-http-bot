@@ -26,8 +26,8 @@
 		"discord.js": "^14.9.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.6.1",
-		"@commitlint/config-conventional": "^17.6.1",
+		"@commitlint/cli": "^19.0.0",
+		"@commitlint/config-conventional": "^19.0.0",
 		"@sapphire/eslint-config": "^4.4.1",
 		"@sapphire/prettier-config": "^1.4.5",
 		"@sapphire/ts-config": "^4.0.0",
