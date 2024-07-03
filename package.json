@@ -14,7 +14,6 @@
 		"start": "node dist/Bot.js --enable-source-maps",
 		"build": "tsc -b src",
 		"watch": "yarn tsc-watch -b src --onSuccess \"yarn start\"",
-		"lint": "eslint --fix --ext .ts src",
 		"format": "prettier --write --loglevel=warn \"src/**/*.{js,ts,json}\"",
 		"postinstall": "husky install .github/husky"
 	},
@@ -28,18 +27,11 @@
 	"devDependencies": {
 		"@commitlint/cli": "^17.6.1",
 		"@commitlint/config-conventional": "^17.6.1",
-		"@sapphire/eslint-config": "^5.0.0",
 		"@sapphire/prettier-config": "^1.4.5",
 		"@sapphire/ts-config": "^4.0.0",
 		"@types/node": "^18.15.11",
-		"@typescript-eslint/eslint-plugin": "^5.58.0",
-		"@typescript-eslint/parser": "^5.58.0",
 		"discord-api-types": "0.37.63",
-		"eslint": "^8.38.0",
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-plugin-prettier": "^4.2.1",
 		"husky": "^8.0.3",
-		"lint-staged": "^15.0.0",
 		"prettier": "^2.8.7",
 		"pretty-quick": "^3.1.3",
 		"tsc-watch": "^6.0.0",
@@ -49,17 +41,6 @@
 		"node": ">=18.x.x"
 	},
 	"prettier": "@sapphire/prettier-config",
-	"lint-staged": {
-		"*.{js,ts}": [
-			"eslint --fix --ext ts,js"
-		]
-	},
-	"eslintConfig": {
-		"extends": "@sapphire",
-		"rules": {
-			"@typescript-eslint/no-base-to-string": "off"
-		}
-	},
 	"commitlint": {
 		"extends": [
 			"@commitlint/config-conventional"

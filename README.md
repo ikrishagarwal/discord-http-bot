@@ -25,7 +25,6 @@
 -   Uses [`@skyra/http-framework`](https://github.com/https://github.com/skyra-project/archid-components/tree/main/packages/http-framework) as the base library
 -   Uses [@skyra/env-utilities](https://github.com/skyra-project/archid-components/tree/main/packages/env-utilities) for better env management
 -   Typescript support
--   ESLint support
 -   Prettier support
 -   Automated git hooks with husky
 -   Integrated with commit lint to watch your commit messages
