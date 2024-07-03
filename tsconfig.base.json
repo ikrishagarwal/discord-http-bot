@@ -4,6 +4,7 @@
 		"lib": ["ESNext", "DOM"],
 		"emitDecoratorMetadata": false,
 		"target": "ESNext",
-		"module": "ESNext"
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
 	}
 }

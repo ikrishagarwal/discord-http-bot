@@ -8,7 +8,8 @@
 			"#root/*": ["*"],
 			"#lib/*": ["lib/*"]
 		},
-		"composite": true
+		"composite": true,
+		"experimentalDecorators": true
 	},
 	"include": [".", "./**/*.json"],
 	"exclude": ["./tsconfig.json"]
