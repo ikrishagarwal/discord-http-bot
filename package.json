@@ -1,7 +1,7 @@
 {
 	"name": "sapphire-bot",
 	"version": "2.0.0",
-	"packageManager": "yarn@3.7.0",
+	"packageManager": "yarn@3.8.7",
 	"private": true,
 	"license": "MIT",
 	"main": "dist/Bot.js",
@@ -30,12 +30,12 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@sapphire/ts-config": "^5.0.1",
 		"@types/node": "^24.0.0",
-		"discord-api-types": "0.37.91",
+		"discord-api-types": "0.38.37",
 		"husky": "^9.0.11",
 		"prettier": "^3.3.2",
 		"pretty-quick": "^4.0.0",
 		"tsc-watch": "^7.0.0",
-		"typescript": "~5.4.5"
+		"typescript": "~5.9.0"
 	},
 	"engines": {
 		"node": ">=18.x.x"
