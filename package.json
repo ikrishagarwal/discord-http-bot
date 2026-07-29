@@ -1,7 +1,7 @@
 {
 	"name": "sapphire-bot",
 	"version": "2.0.0",
-	"packageManager": "yarn@3.8.7",
+	"packageManager": "yarn@4.18.0",
 	"private": true,
 	"license": "MIT",
 	"main": "dist/Bot.js",
