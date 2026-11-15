@@ -28,7 +28,7 @@
 		"@commitlint/cli": "^21.0.0",
 		"@commitlint/config-conventional": "^21.0.0",
 		"@sapphire/prettier-config": "^2.0.0",
-		"@sapphire/ts-config": "^5.0.1",
+		"@sapphire/ts-config": "^6.0.0",
 		"@types/node": "^24.0.0",
 		"discord-api-types": "0.38.47",
 		"husky": "^9.0.11",

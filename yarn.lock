@@ -404,13 +404,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/ts-config@npm:^5.0.1":
-  version: 5.0.3
-  resolution: "@sapphire/ts-config@npm:5.0.3"
+"@sapphire/ts-config@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@sapphire/ts-config@npm:6.0.0"
   dependencies:
-    tslib: ^2.8.1
-    typescript: ~5.4.5
-  checksum: bf4b433cfa40ab7a16b3a2922401441fa76769fd13193cb9429b216f340b79a56c85aeabae4aa7d36c5c73b32a3bacfe1d1c8d93375cca44e1631a8d2df37c36
+    "@types/node": "*"
+    typescript: ~6.0.3
+  checksum: e0ea2f498b2411086f4d3e2c6941eaaf651d137d3db348f4d7ec8d531fed2af27fd29c1110bbf047d76a3a8668bd528cc975f2f42b4750e776924cee16063f09
   languageName: node
   linkType: hard
 
@@ -1123,7 +1123,7 @@ __metadata:
     "@commitlint/cli": ^21.0.0
     "@commitlint/config-conventional": ^21.0.0
     "@sapphire/prettier-config": ^2.0.0
-    "@sapphire/ts-config": ^5.0.1
+    "@sapphire/ts-config": ^6.0.0
     "@skyra/env-utilities": ^2.0.0
     "@skyra/http-framework": 1.2.2
     "@skyra/logger": ^2.0.3
@@ -1279,13 +1279,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.4.5":
-  version: 5.4.5
-  resolution: "typescript@npm:5.4.5"
+"typescript@npm:~6.0.3":
+  version: 6.0.3
+  resolution: "typescript@npm:6.0.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 53c879c6fa1e3bcb194b274d4501ba1985894b2c2692fa079db03c5a5a7140587a1e04e1ba03184605d35f439b40192d9e138eb3279ca8eee313c081c8bcd9b0
+  checksum: c1182dfadf8a8cb22a4e32442715afef1af1b950ae635b1c52c27e0d7fb7a5e2607ed7c7c4079bba4163579250e02445fd8d46b09cbceda71ff72a5b7d69db61
   languageName: node
   linkType: hard
 
@@ -1299,13 +1299,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~5.4.5#~builtin<compat/typescript>":
-  version: 5.4.5
-  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=5adc0c"
+"typescript@patch:typescript@~6.0.3#~builtin<compat/typescript>":
+  version: 6.0.3
+  resolution: "typescript@patch:typescript@npm%3A6.0.3#~builtin<compat/typescript>::version=6.0.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d59e26e74f6b444517d0ba16e0ee16e75c652c2b49a59f2ebdbeb16647a855fd50c7fc786a58987e45f03bce0677092e2dd3333649fd53b11d0b0d271455837c
+  checksum: 238430fdcadd2ca8ec7179bc644b324dbe4d13d647efae95351f216c7d9645092c0d848a45bd5a27a3d9058e2466eb8d67f9d944e2a78fa32171eee2e2f8d11e
   languageName: node
   linkType: hard
 
